@@ -40,13 +40,29 @@
 #logo {
     float:none;
 }
-nav.default {
-	margin: 0;
+nav.fixed div {
+	margin-left:40px;
 }
+
+nav.default {
+	margin-left: 20px;
+}
+
 nav a {
 	float: left;
 	padding: 7px;
 }
+h1 {
+	line-height: 40px;
+}
+.left-col {
+	padding-right: 0px;
+}
+
+aside.sidebar {
+    padding-right: 0px;
+}
+
 }
 
 img {

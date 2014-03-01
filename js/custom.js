@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	
-	var menu = $('#test'),
+	//scroll effect for navigation
+	var menu = $('nav'),
 		pos = menu.offset();
 		
 		$(window).scroll(function(){
@@ -15,4 +15,21 @@ $(document).ready(function() {
 			}
 		});
 
+		$(document).ready(function() {
+			$('nav div a').hover(function() {
+				$(this).animate({color: '#279558'}, 150)
+			});
+			$('nav div a').mouseleave(function() {
+				$('nav div a').animate({color: '#666666'}, 150)
+			});
+		});
+
+	
+		    
+		$(document).ready(function() {
+			$('nav div a').click(function() {
+				$(this).addClass('active');
+			});
+			
+		});
 });
