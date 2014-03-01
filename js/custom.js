@@ -1,6 +1,18 @@
 $(document).ready(function() {
-    $('nav a').hover(function() {
-        $(this).stop.animate({backgroundColor: "#cccccc"}, 600);
-    });
-    
+	
+	var menu = $('#test'),
+		pos = menu.offset();
+		
+		$(window).scroll(function(){
+			if($(this).scrollTop() > pos.top+menu.height() && menu.hasClass('default')){
+				menu.fadeOut('fast', function(){
+					$(this).removeClass('default').addClass('fixed').fadeIn('fast');
+				});
+			} else if($(this).scrollTop() <= pos.top && menu.hasClass('fixed')){
+				menu.fadeOut('fast', function(){
+					$(this).removeClass('fixed').addClass('default').fadeIn('fast');
+				});
+			}
+		});
+
 });

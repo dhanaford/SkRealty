@@ -1,5 +1,5 @@
 @media screen and (max-width: 1222px) {
-	nav {
+	nav.default {
 		 margin-left: 65%;
 	}
 	nav a {
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-	nav {
+	nav.default {
 		 margin-left: 55%;
 	}
 
@@ -40,7 +40,7 @@
 #logo {
     float:none;
 }
-nav {
+nav.default {
 	margin: 0;
 }
 nav a {
