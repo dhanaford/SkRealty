@@ -1,0 +1,190 @@
+::-moz-selection { 
+    background-color: #279558; 
+    color: #fff; 
+    }
+::selection { 
+    background-color: #279558; 
+    color: #fff; }
+
+a { 
+    outline: 0; 
+    color: #444;
+    text-decoration: none; 
+}
+a:hover { 
+    text-decoration: underline; 
+}
+
+p a:hover { 
+    color: #279558; 
+}
+
+a:active { 
+    outline: none; 
+    position: relative; 
+    top: 2px; 
+}
+
+.clearfix { 
+    clear: both; 
+}
+
+/*------------------------------------*\
+  MAIN
+\*------------------------------------*/
+
+body { 
+    background: #F9F9F9; color: #444; 
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in; 
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#logo {
+    float:left;
+}
+
+#wrapper { 
+    margin: 10px auto; 
+    max-width: 980px; 
+    width: 90%; 
+    background: #fff; 
+    padding: 10px 0; 
+}
+
+header { 
+    padding: 3px; 
+}
+
+h1 { 
+    font-size: 40px; 
+    font-family: 'Lato', sans-serif;
+    line-height: 75px; 
+    font-weight: 300;
+    margin: 0px;
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in;  
+}
+
+h1 a:hover { 
+    text-decoration: none; 
+    color: #27B3CF; 
+}
+
+h2 { 
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300;
+    font-size: 18px; 
+    padding: 10px; 
+    -webkit-transition-property: font-size;
+    -moz-transition-property: font-size;
+    transition-property: font-size;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in;
+}
+
+h3 { 
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 30px; 
+}
+
+h4 { 
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; 
+    padding: 3px; 
+    margin: 5px 0 0 0; 
+}
+
+
+nav { 
+    padding: 0; 
+    margin: 30px 0 10px 0;
+    margin-left: 65%;
+}
+
+nav a { 
+    display: block; 
+    float: left; 
+    padding: 10px; 
+}
+.test {
+    color: #fff;
+}
+
+nav a:hover { 
+    text-decoration: none; 
+    background: #279558; 
+}
+
+nav a:active{ 
+    position: relative; 
+    top: 0; 
+}
+
+.left-col { 
+    width: 70%; 
+    float: left; 
+}
+
+.sidebar { 
+    width: 20%; 
+    float: right; 
+    margin-bottom: 10px; 
+    -webkit-transition-property: width;
+    -moz-transition-property: width;
+    transition-property: width;
+    -webkit-transition-duration: 0.5s, 0.5s;
+    -moz-transition-duration: 0.5s, 0.5s;
+    transition-duration: 0.5s, 0.5s; 
+    -webkit-transition-timing function: linear, ease-in;
+    -moz-transition-timing function: linear, ease-in; 
+    transition-timing function: linear, ease-in;
+}
+
+
+#about { 
+    padding: 20px; 
+}
+
+p { 
+    padding: 0 5px 0 5px;
+}
+
+ul { 
+    list-style: none; 
+}
+
+ul li { 
+    margin: 0 5px; 
+}
+
+footer { 
+    padding: 5px; 
+}
+
+pre { 
+    overflow: scroll; 
+    font-size: 10px; 
+}
