@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	//scroll effect for navigation
-	var menu = $('nav'),
+	var menu = $('#nav'),
 		pos = menu.offset();
 		
 		$(window).scroll(function(){

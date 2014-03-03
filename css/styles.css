@@ -63,14 +63,6 @@ body {
     padding: 15px;
 }
 
-footer div {
-    margin: 10px auto; 
-    max-width: 980px; 
-    width: 90%;
-    padding: 0px 0px 20px 0px;
-    color:#279558;
-}
-
 
 header { 
     padding: 3px; 
@@ -133,6 +125,7 @@ h4 {
 nav { 
     padding: 0; 
     margin: 0px 0 10px 0;
+    min-width: 299px;
 }
 
 nav a { 
@@ -140,6 +133,8 @@ nav a {
     float: left; 
     padding: 10px;
     margin-right: 10px;
+    font-weight: 400;
+    color: #666;
 }
 
 nav a.last {
@@ -149,7 +144,7 @@ nav a.last {
 nav.default {
     padding: 0; 
     margin: 30px 0 10px 0;
-    margin-left: 67%;
+    margin-left: 66%;
 }
 
 
@@ -171,6 +166,7 @@ nav.default {
 
 nav.fixed a {
     color: #666;
+
 }
 
 nav.fixed div {
@@ -179,6 +175,10 @@ nav.fixed div {
 
 nav a:hover { 
     text-decoration: none;
+     -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
 }
 
 nav a:active{ 
@@ -229,6 +229,17 @@ ul li {
 footer { 
     padding: 5px;
     background-color: #323232;
+    color:#279558;
+    min-height: 60px;
+    position: relative;
+
+}
+
+footer div.wrap {
+    margin: 0px auto; 
+    max-width: 980px; 
+    width: 90%;
+    padding: 0px 0px 40px 0px;
 }
 
 pre { 

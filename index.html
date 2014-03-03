@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -26,7 +25,7 @@
 		
 		<header>
 			<img id="logo" src="images/logo.png" alt="sk realty management logo" />
-			<nav class="default">
+			<nav id="nav" class="default">
 			<div>
 				<a href="#">Home</a>
 				<a href="#">About Us</a>
@@ -67,7 +66,19 @@
 	</div> <!-- END Wrapper -->
 
 		<footer>
-		<div><p>&copy; 2013 - SK Realty Management</p></div>
+		<div class="wrap">
+		<div class="left-col" style="border-right: none;">
+		<nav>
+			<div>
+				<a href="#">Home</a>
+				<a href="#">About Us</a>
+				<a href="#">Contact Us</a>
+				<a class="last" href="#">Properties</a>
+			</div>
+		</nav>
+		</div>
+		<div style="float: right;"><p>&copy; 2013 - SK Realty Management</p></div>
+		</div>
 		</footer>
 		
 	

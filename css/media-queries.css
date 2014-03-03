@@ -50,7 +50,8 @@ nav.default {
 
 nav a {
 	float: left;
-	padding: 7px;
+	padding: 4px 3px 0px 0px;
+	font-size: 10px
 }
 h1 {
 	line-height: 40px;
@@ -61,6 +62,9 @@ h1 {
 
 aside.sidebar {
     padding-right: 0px;
+}
+footer {
+	min-height: 100px;
 }
 
 }
