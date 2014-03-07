@@ -137,14 +137,14 @@ nav a {
     color: #666;
 }
 
-nav a.last {
+nav:last-child a {
     margin-right: 0px;
 }
 
 nav.default {
     padding: 0; 
     margin: 30px 0 10px 0;
-    margin-left: 66%;
+    margin-left: 70%;
 }
 
 
